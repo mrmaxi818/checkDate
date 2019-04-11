@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-function DateApp(){
+const DateApp = () => {
     const date = new Date()
     const hours = date.getHours()
     let timeOfDay
